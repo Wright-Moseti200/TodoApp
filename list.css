@@ -1,0 +1,100 @@
+body
+{
+    display:flex;
+    background:linear-gradient(120deg,darkblue,purple);
+    flex-direction: column;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box
+{
+    width:570px;
+}
+
+img
+{
+    height:40px;
+    width:60px
+}
+
+.head
+{
+    display: flex;
+}
+
+h1
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.enter
+{
+    display: flex;
+    justify-content: center;
+}
+
+input
+{
+    z-index: 1;
+    outline:none;
+    border:none;
+    background-color:whitesmoke;
+    padding:18px;
+    width:500px;
+    border-radius: 25px;
+}
+
+button
+{
+    z-index:2;
+    border:none;
+    outline:none;
+    background-color:rgb(255, 140, 0);
+    width:120px;
+    border-radius: 30px;
+position:relative;
+right:100px;
+color:white;
+font-weight: bold;
+padding: 18px;
+}
+
+
+
+ul
+{
+    display:flex ;
+    flex-direction: column;
+}
+
+
+ li
+{
+    position: relative;
+    font-size: 15px;
+    left:5px;
+    padding: 8px;
+    background-color: whitesmoke;
+    border-radius: 12px;
+    width:400px;
+    margin-top: 10px;
+    cursor:pointer;
+}
+
+
+
+.delete
+{
+    position: absolute;
+    left:370px;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.checked
+{
+    text-decoration: line-through;
+}
